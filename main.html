@@ -46,13 +46,31 @@
           </form>
         </div>
       </nav>
-  
 </header>
+
 <body>
-  <div>
-    <img class="bannerImage" src="/IMG/stickerbanner.jpeg" alt="banner image 1">
+<!-- Slideshow container -->
+<div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="IMG/stickerbanner.jpeg" style="width:100%">
   </div>
-    
+  <div class="mySlides fade">
+    <img src="IMG/promo.jpeg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="IMG/banner3.jpeg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 </body>
 <!-- Footer -->
 <footer class="d-flex justify-content-around">
@@ -91,4 +109,6 @@
     <img class="footerIcon" src="/IMG/icons8-image-30.png" alt="company icon">
    </div>
 </footer>
+
+<script src="index.js"></script>
 </html>
