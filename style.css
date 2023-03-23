@@ -1,10 +1,25 @@
+body {
+    overflow: auto;
+    padding: .5%;
+}
+
+h5 {
+    text-align: center;
+}
+
 .navbarIcon{
     width: 100px;
     height: auto;
 }
 
-.nav {
+.nav{
     padding: 0
+}
+
+a:hover{
+    text-decoration: underline !important;
+    font-weight: bold;
+    
 }
 
 .icon{
@@ -12,15 +27,41 @@
     height: auto;
 }
 
-footer{
-    width: 100%;
-    left: 0;
-    bottom: 12%;
+.promotionBox{
+    width: 30%;
 }
-.footernav{
+
+.promotionBox:hover{
+    background-color: grey;
+    opacity: 25%;
+
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerItem {
+    margin: 0 10px;
+}
+
+#socialMedia{
+    justify-content: center;
+}
+
+.footernav {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    position: fixed;
-	left: 0;
-	bottom: 0;
-	text-align: center;
+}
+
+.copyRight{
+    font-size: small;
+    margin: 0%;
 }
