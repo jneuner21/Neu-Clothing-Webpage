@@ -28,15 +28,20 @@ a:hover{
     height: auto;
     padding: 2px;
 }
+.promoBanner2{
+    width: 100%;
+}
 
 .promotionBox{
-    width: 30%;
+    width: 100%;
+    height: 98%;
+    margin: 0%;
+    padding: 0%;
 }
 
 .promotionBox:hover{
     background-color: grey;
     opacity: 15%;
-
 }
 
 footer{
